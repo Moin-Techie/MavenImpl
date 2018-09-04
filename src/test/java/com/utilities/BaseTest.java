@@ -11,12 +11,14 @@ public class BaseTest
 	@BeforeTest(description="This method is used for set-up")
 	public void start()
 	{
+		System.out.println("Started");
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 	}
 	
 	@AfterTest(description="This method is used for Garbage Collection")
 	public void end()
 	{
+		System.out.println("Ended");
 	driver.quit();
 	}
 }

@@ -48,6 +48,7 @@ public class HelperClass
 		
 		if(browser.equalsIgnoreCase("Chrome"))
 		{
+			System.out.println("Browser");
 			driver=new ChromeDriver();
 		}
 		
