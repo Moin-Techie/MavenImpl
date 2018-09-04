@@ -17,6 +17,6 @@ public class BaseTest
 	@AfterTest(description="This method is used for Garbage Collection")
 	public void end()
 	{
-		driver.quit();
+	//	driver.quit();
 	}
 }
